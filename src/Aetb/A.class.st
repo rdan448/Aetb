@@ -21,7 +21,7 @@ A >> doesNotUnderstand: aMessage [
 { #category : #accessing }
 A >> ping [ 
 	"  "
-	^ super pong
+	^ self pong
 ]
 
 { #category : #accessing }

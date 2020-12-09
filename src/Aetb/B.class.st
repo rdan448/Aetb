@@ -5,6 +5,12 @@ Class {
 }
 
 { #category : #accessing }
+B >> ping [  
+	"  "
+	^ super pong
+]
+
+{ #category : #accessing }
 B >> pong [  
 	"  "
 	^42
